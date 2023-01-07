@@ -4,6 +4,7 @@ body{
     background-color: #ffff;
     margin: 10px;
     padding: 10px;
+    max-width: 1400px;
 }
 #myprofile{
     display: grid;
@@ -16,6 +17,7 @@ body{
     background-color: rgb(40, 40, 160);
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
+    margin-left: 600px;
 }
 .mainpic{
     width: 190px;
@@ -38,10 +40,15 @@ h1{
     text-shadow: 5px 5px #000000;
     color: white;
     font-family: 'Roboto', sans-serif;
+
 }
 h2{
     font-size: 2.5em;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 600px;
+}
+ul{
+    margin-left: 600px;
 }
 .plesson{
     font-size: 1.5em;
@@ -51,6 +58,10 @@ h2{
 h3{
     font-size: 1.5em;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 600px;
+}
+#line{
+    margin-left: 600px;
 }
 footer{
     width: 800px;
@@ -58,6 +69,7 @@ footer{
     background-color: rgb(40, 40, 160);
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
+    margin-left: 600px;
 }
 footer p{
     color: white;
