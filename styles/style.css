@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@200&display=swap');
+
 body{
     background-color: #ffff;
     margin: 10px;
@@ -20,6 +22,10 @@ body{
     height: 250px;
     box-shadow: 10px 10px 10px #13293D;
 }
+.mainpic:hover{
+    transform: scale(1.1);
+
+}
 #mypic{
     grid-column: 1/1;
     padding-bottom: 10px;
@@ -31,13 +37,20 @@ body{
 h1{
     text-shadow: 5px 5px #000000;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 h2{
-    padding: auto;
     font-size: 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .plesson{
     font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+h3{
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 footer{
     width: 800px;
@@ -45,11 +58,14 @@ footer{
     background-color: rgb(40, 40, 160);
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
-
 }
 footer p{
     color: white;
     text-align: center;
     font-size: 1.3em;
-    padding-top: 20px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#last{
+    color: yellow;
 }
