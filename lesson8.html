@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Edilson Junior in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <title>WDD 230: Assignment Portal </title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="myprofile">
-        <header>
-        </header>
         <a id="mypic" href="index.html">
             <img class="mainpic" src="images/junior_pic.jpeg" alt="Edilson Junior Photo">
         </a>
@@ -18,26 +17,31 @@
             <h1>Edilson Marques E. Silva Junior</h1>
         </div>
     </div>
-    <div id="portaltitle">
+    <div>
         <h2>WDD 230: Assignment Portal</h2>
-        <hr>
+        <hr class="line">
     </div>
     <main id="lessons">
-        <p class="plesson">• Lesson 02: <a href="lesson2.html">Title</a></p>
-        <p class="plesson">• Lesson 03: <a href="lesson3.html">Title</a></p>
-        <p class="plesson">• Lesson 04: <a href="lesson4.html">Title</a></p>
-        <p class="plesson">• Lesson 05: <a href="lesson5.html">Title</a></p>
-        <p class="plesson">• Lesson 06: <a href="lesson6.html">Title</a></p>
-        <p class="plesson">• Lesson 07: <a href="lesson7.html">Title</a></p>
-        <p class="plesson">• Lesson 08: <a href="lesson8.html">Title</a></p>
-        <p class="plesson">• Lesson 09: <a href="lesson9.html">Title</a></p>
-        <p class="plesson">• Lesson 10: <a href="lesson10.html">Title</a></p>
-        <p class="plesson">• Lesson 11: <a href="lesson11.html">Title</a></p>
-        <hr>
+        <ul>
+            <li class="plesson">Lesson 01: <a href="https://codepen.io/Junior7Marques/pen/GRGQqYp" target="blank"> Code Pen Link</a></li>
+            <li class="plesson">Lesson 02: <a href="lesson2.html">Title</a></li>
+            <li class="plesson">Lesson 03: <a href="lesson3.html">Title</a></li>
+            <li class="plesson">Lesson 04: <a href="lesson4.html">Title</a></li>
+            <li class="plesson">Lesson 05: <a href="lesson5.html">Title</a></li>
+            <li class="plesson">Lesson 06: <a href="lesson6.html">Title</a></li>
+            <li class="plesson">Lesson 07: <a href="lesson7.html">Title</a></li>
+            <li class="plesson">Lesson 08: <a href="lesson8.html">Title</a></li>
+            <li class="plesson">Lesson 09: <a href="lesson9.html">Title</a></li>
+            <li class="plesson">Lesson 10: <a href="lesson10.html">Title</a></li>
+            <li class="plesson">Lesson 11: <a href="lesson11.html">Title</a></li>
+        </ul>
+        <hr class="line">
         <h3>Some lessons may need more than one activity/assignment link.</h3>
     </main>
     <footer>
-        <p>&copy; 2023 .:|:. Edilson Marques E. Silva Junior .:|:. São Paulo - Brazil</p>
+        <p><span id="copyright"></span> .:|:. Edilson Marques E. Silva Junior .:|:. São Paulo - Brazil</p>
+        <p id="last">Last Update: <span id="lastupdate"></span></p>
     </footer>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
