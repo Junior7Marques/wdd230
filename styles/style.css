@@ -2,9 +2,9 @@
 
 body{
     background-color: #ffff;
-    margin: 10px;
+    margin:0 auto;
     padding: 10px;
-    max-width: 1400px;
+    max-width: 800px;
 }
 #myprofile{
     display: grid;
@@ -15,9 +15,9 @@ body{
     align-items: center;
     justify-self: center;
     background-color: rgb(40, 40, 160);
+    align-content: center;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
-    margin-left: 600px;
 }
 .mainpic{
     width: 190px;
@@ -40,36 +40,28 @@ h1{
     text-shadow: 5px 5px #000000;
     color: white;
     font-family: 'Roboto', sans-serif;
-
+    
 }
 h2{
     font-size: 2.5em;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 600px;
-}
-ul{
-    margin-left: 600px;
 }
 .plesson{
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    
 }
 h3{
     font-size: 1.5em;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 600px;
-}
-.line{
-    margin-left: 600px;
 }
 footer{
     width: 800px;
-    height: 100px;
+    height: 125px;
     background-color: rgb(40, 40, 160);
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
-    margin-left: 600px;
 }
 footer p{
     color: white;
