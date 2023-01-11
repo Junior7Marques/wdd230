@@ -6,55 +6,26 @@ body{
     padding: 10px;
     max-width: 1600px;
 }
-#myprofile{
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
+#cont1{
+    display:grid;
     width: auto;
-    height: 300px;
-    align-items: center;
-    justify-content: center;
+    height: 400px;
     background-color: rgb(40, 40, 160);
     align-content: center;
+    justify-items: center;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
-}
-.mainpic{
-    width: 190px;
-    height: 250px;
-    box-shadow: 10px 10px 10px #13293D;
-    margin-left: 50px;
-}
-.mainpic:hover{
-    transform: scale(1.1);
-
-}
-#mypic{
-    grid-column: 1/1;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-#myname{
-    grid-column: 2/2;
 }
 h1{
     text-shadow: 5px 5px #000000;
     color: white;
     font-family: 'Roboto', sans-serif;
-    
 }
-h2{
-    font-size: 2.5em;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.plesson{
-    font-size: 1.5em;
+#cont1 p{
+    text-shadow: 5px 5px #000000;
+    color: white;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    
-}
-h3{
-    font-size: 1.5em;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8em;
 }
 footer{
     width: auto;
@@ -63,6 +34,7 @@ footer{
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
     justify-items: center;
+    align-content: center;
 }
 footer p{
     color: white;
