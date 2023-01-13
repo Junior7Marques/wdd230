@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@600&display=swap');
 
 body{
     background-color: #ffff;
@@ -8,7 +8,7 @@ body{
 }
 #cont1{
     display:grid;
-    width: 100%;
+    width: auto;
     height: 300px;
     background-color: rgb(40, 40, 160);
     align-content: center;
@@ -47,15 +47,32 @@ main section:nth-child(3) {
 }
 main section {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid black;
 	padding: 0 25px;
-	background-color: #eee;
+	background-color: rgb(146, 142, 142);
+    box-shadow: 0 0 30px #333;
 }
 #firtspic, #secondpic, #lastpic{
     display: block;
     width: 90%;
     height: 900px;
     box-shadow: 0 0 30px #333;
+    margin-left: 30px;
+}
+h2, h3,h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+main a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+main section p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#000000;
+    line-height: 1.7em;
+    font-size: 1.5em;
 }
 footer{
     width: auto;
