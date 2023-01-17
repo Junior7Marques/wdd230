@@ -19,6 +19,14 @@ header, nav, main, footer {
 	max-width: 1600px;
 	margin: 0 auto;
 }
+#name{
+    text-shadow: 5px 5px #000000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    justify-content: center;
+    text-decoration: underline;
+}
 nav {
 	display: flex;
 	justify-content: space-around;
