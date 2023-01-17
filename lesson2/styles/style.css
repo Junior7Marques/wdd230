@@ -21,13 +21,9 @@ h1{
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-#cont1 p{
-    text-shadow: 5px 5px #000000;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
-    padding-bottom: 15px;
-}
+main li, main a{
+    color:yellow;
+  }
 main {
     padding-top: 25px;
 	max-width: 1800px;
