@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@600&display=swap');
+
+body{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#cont1{
+    display:grid;
+    width: auto;
+    height: 300px;
+    background-color: rgb(40, 40, 160);
+    align-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #13293D;
+}
+header, nav, main, footer {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+    border: solid 3px black;
+    background-color: #36454f;
+    box-shadow: 10px 10px 10px #13293D;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    color: #fff;
+}
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
+}
+h1{
+    text-shadow: 5px 5px #000000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+footer{
+    width: auto;
+    height: 125px;
+    background-color: rgb(40, 40, 160);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #13293D;
+    justify-items: center;
+    align-content: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#last{
+    color: yellow;
+}
