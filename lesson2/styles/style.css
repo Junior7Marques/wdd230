@@ -22,7 +22,8 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 main li, main a{
-    color:yellow;
+    color:black;
+    text-decoration: underline;
   }
 main {
     padding-top: 25px;
