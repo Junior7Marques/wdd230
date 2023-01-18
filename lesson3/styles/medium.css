@@ -1,4 +1,4 @@
-@media only screen and (max-width: 70.5em) {
+@media only screen and (max-width: 80.5em) {
 	main, nav {
 		display: flex;
         flex-direction: column;
