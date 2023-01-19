@@ -125,7 +125,8 @@ img{
     height: 500px;
 }
 #design3{
-    margin-top: 300px;
+    margin-top: 200px;
+    height: 500px;
 }
 #color1{
     border: 1px solid black;
@@ -141,8 +142,8 @@ img{
 #color3{
     border: 1px solid black;
     padding: 30px;
-    background-color: gold;
-    color:black;
+    background-color: black;
+    color:#fff;
 }
 #headex{
     text-transform: uppercase;
@@ -154,6 +155,32 @@ img{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 300;
+}
+#navex{
+    display: flex;
+	justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+    border: solid 3px black;
+    background-color: #04124b;
+    box-shadow: 10px 10px 10px black;
+}
+#navex a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 15px;
+    color: #fff;
+}
+#navex a:hover{
+    background: linear-gradient(90deg, transparent, #fff, transparent) bottom / var(--d, 0) 10px no-repeat;
+    --d: 90%;
+    transition: 0.5s;
+}
+#navhead{
+    margin-bottom: 100px;
 }
 footer{
     width: auto;
