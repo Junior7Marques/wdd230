@@ -8,7 +8,7 @@ let day = date.getDate();
 let year = date.getFullYear();
 let day_week = weekday[date.getDay()]
 
-document.getElementById("current_date").innerText = `${day_week}, ${day} ${month} ${year}`;
+document.getElementById("current_date_js").innerText = `${day_week}, ${day} ${month} ${year}`;
 
 copyright.textContent = `© ${new Date().getFullYear()}`;
 copyright1.textContent = `© ${new Date().getFullYear()}`;
