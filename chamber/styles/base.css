@@ -85,8 +85,11 @@ nav {
     width: 30px;
     height: 30px;
     margin-left: 5px;
-}
 
+}
+#social_media img:hover, .location_map img:hover{
+    transform: scale(1.1);
+}
 nav button {
     background-color: transparent;
     border: 1px solid #fff;
@@ -199,7 +202,6 @@ footer p, a {
     margin: auto;
 
 }
-
 .map_container{
     display: flex;
 }
