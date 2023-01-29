@@ -2,12 +2,10 @@
 
 
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 header {
-    background-color: #1c3eb0;
+    background-color: #04124b;
     padding-bottom: 20px;
 }
 
@@ -20,12 +18,12 @@ header {
 }
 
 h1, h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
 p, nav {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo {
@@ -44,12 +42,12 @@ p, nav {
 }
 
 #logo h1{
-    font-size: 16px;
+    font-size: 24px;
     margin-top: 15px;
 }
 
 #logo h2 {
-    font-size: 13.5px;
+    font-size: 20px;
     margin-top: -10px;
 }
 
@@ -59,21 +57,22 @@ p, nav {
 
 nav {
     background-color: transparent;
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
-#date_today {
-    background-color: rgba(0,0,0,0.3);
+#current_date {
+    background-color: black;
     padding: 2px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    border: solid rgba(255,255,255,0.5);
+    border: solid #fff;
     border-width: thin;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     width: 95%;
     margin: auto;
+    margin-top: 15px;
 }
 
 #social_media {
@@ -86,14 +85,14 @@ nav {
 #social_media img {
     width: 30px;
     height: 30px;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 nav button {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #fff;
     font-size: 1.4rem;
-    color: #eee;
+    color: #fff;
     margin-top: 45px;
     margin-left: -4px;
 }
@@ -109,21 +108,14 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: white;
+    color: #fff;
     border-top: thin solid rgba(255,255,255,0.1);
 }
 
-.contact {
-    border-bottom: thin solid rgba(255,255,255,0.1);
-}
-
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-}
-
-nav ul li.join a {
-    background-color: rgba(0,0,0,0.3);
-    color: #fff;
+    background: linear-gradient(90deg, transparent, #fff, transparent) bottom / var(--d, 0) 10px no-repeat;
+    --d: 90%;
+    transition: 0.5s;
 }
 
 nav ul {
@@ -134,19 +126,19 @@ nav ul.open {
     display: block;
 }
 
-#hamburger-button span:nth-child(1) {
+#nav-button span:nth-child(1) {
     display: block;
 }
 
-#hamburger-button span:nth-child(2) {
+#nav-button span:nth-child(2) {
     display: none;
 }
 
-#hamburger-button.open span:nth-child(1) {
+#nav-button.open span:nth-child(1) {
     display: none;
 }
 
-#hamburger-button.open span:nth-child(2) {
+#nav-button.open span:nth-child(2) {
     display: block;
 }
 
@@ -175,7 +167,7 @@ main .featured, .event, .join_here, .weather, .news-update, .right-column  {
 }
 
 footer {
-    background-color: #1c3eb0;
+    background-color: #04124b;
 }
 
 footer img {

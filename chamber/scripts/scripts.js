@@ -19,9 +19,9 @@ let oLastModif1 = document.getElementById("lastupdate1").innerText = document.la
 let oLastModif2 = document.getElementById("lastupdate2").innerText = document.lastModified;
 
 function toggleMenu() {
-    document.getElementById('primary-nav').classList.toggle('open');
-    document.getElementById('hamburger-button').classList.toggle('open');
+    document.getElementById('principal_nav').classList.toggle('open');
+    document.getElementById('nav-button').classList.toggle('open');
 }
 
-const x = document.getElementById('hamburger-button')
+const x = document.getElementById('nav-button')
 x.onclick = toggleMenu;
