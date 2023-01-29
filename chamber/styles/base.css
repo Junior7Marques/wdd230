@@ -56,7 +56,6 @@ p, nav {
 }
 
 nav {
-    background-color: transparent;
     font-size: 20px;
 
 }
@@ -109,13 +108,13 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: #fff;
-    border-top: thin solid rgba(255,255,255,0.1);
+
 }
 
 nav ul li a:hover {
     background: linear-gradient(90deg, transparent, #fff, transparent) bottom / var(--d, 0) 10px no-repeat;
     --d: 90%;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 nav ul {
@@ -151,13 +150,13 @@ main {
 }
 
 main .featured, .event, .join_here, .weather, .news-update, .right-column  {
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid black;
     padding: 10px;
     margin: 10px;
 }
 
 .right-column div {
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid black;
     padding: 10px;
     height: 50%;
 }
@@ -183,7 +182,7 @@ footer h2 {
 }
 
 footer p, a {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -213,7 +212,7 @@ footer p, a {
     margin: auto;
     width: 95%;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 90%;
     padding: 10px;
@@ -230,11 +229,10 @@ footer p, a {
     margin: auto;
     width: 95%;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 90%;
     padding: 10px;
-    border-top: thin solid rgba(255,255,255,0.3);
 }
 
 .footer_info_large {
@@ -242,9 +240,8 @@ footer p, a {
     margin: auto;
     width: 95%;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 90%;
     padding: 10px;
-    border-top: thin solid rgba(255,255,255,0.3);
 }
