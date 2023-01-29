@@ -216,6 +216,7 @@ footer p, a {
     text-align: center;
     font-size: 90%;
     padding: 10px;
+    border-top: thin solid black;
 }
 
 .footer_info_small p, h3 {
@@ -232,6 +233,7 @@ footer p, a {
     text-align: center;
     font-size: 90%;
     padding: 10px;
+    border-top: thin solid black;
 }
 
 .footer_info_large {
@@ -243,4 +245,5 @@ footer p, a {
     text-align: center;
     font-size: 90%;
     padding: 10px;
+    border-top: thin solid black;
 }
