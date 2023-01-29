@@ -190,7 +190,9 @@ footer p, a {
     text-align: center;
     text-decoration: none;
 }
-
+.footer_logo img, #logo img{
+    border-radius: 50%;
+}
 .address p {
     margin-top: -8px;
     margin-bottom: 12px;;
