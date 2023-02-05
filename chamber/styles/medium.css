@@ -41,7 +41,7 @@
     .footer_info_medium {
         display: block;
         padding-top: 15px;
-        padding-bottom: -10px;
+        padding-bottom: 0.1px;
     }
 
     .footer_info_medium p {
