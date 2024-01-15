@@ -6,7 +6,15 @@ body{
     padding: 10px;
     max-width: 1600px;
 }
-#myprofile{
+header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1/2;
+    background-color: rgb(40, 40, 160);
+    border-radius: 20px;
+    width: auto;
+}
+/* #myprofile{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     width: auto;
@@ -17,7 +25,7 @@ body{
     align-content: center;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #13293D;
-}
+} */
 .mainpic{
     width: 150px;
     height: 180px;
@@ -32,11 +40,11 @@ body{
 #mypic{
     grid-column: 1/1;
     padding-bottom: 10px;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
-#myname{
+#name{
     grid-column: 2/2;
+    height: auto;
 }
 h1{
     text-shadow: 5px 5px #000000;
@@ -49,8 +57,9 @@ nav{
     text-align: center;
     padding: 35px;
     font-size: 1.5em;
-    justify-content: space-around;
+    justify-content: space-between;
     grid-column: 1/2;
+    grid-row: 2/2;
     display: flex;
     width: 287%;
     height: auto;
