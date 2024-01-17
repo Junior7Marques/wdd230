@@ -27,7 +27,6 @@ img{
     margin-left: 50px;
     border-radius: 5%;
     margin-top: 10px;
-    padding-top: 10px;   
 }
 img:hover{
     transform: scale(1.1);
