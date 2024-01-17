@@ -7,20 +7,20 @@ let oLastModif = new Date(document.lastModified).toLocaleDateString('en-US', opt
 lastupdate.textContent = `${oLastModif}`
 
 
-function obterContador() {
-    let contador = localStorage.getItem('contador');
-    return contador ? parseInt(contador) : 0;
-  }
+// function obterContador() {
+//     let contador = localStorage.getItem('contador');
+//     return contador ? parseInt(contador) : 0;
+//   }
 
-  // Função para atualizar o contador e exibi-lo
-  function atualizarContador() {
-    let contador = obterContador();
-    contador++;
-    localStorage.setItem('contador', contador);
-    document.getElementById('contador').textContent = `Acessos: ${contador}`;
-  }
+//   // Função para atualizar o contador e exibi-lo
+//   function atualizarContador() {
+//     let contador = obterContador();
+//     contador++;
+//     localStorage.setItem('contador', contador);
+//     document.getElementById('contador').textContent = `Acessos: ${contador}`;
+//   }
 
-  // Atualizar o contador quando a página é carregada
-  window.onload = function() {
-    atualizarContador();
-  };
+//   // Atualizar o contador quando a página é carregada
+//   window.onload = function() {
+//     atualizarContador();
+//   };
